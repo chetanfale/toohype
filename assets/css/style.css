@@ -1,0 +1,189 @@
+body {
+  /* background: #191919; */
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*{
+  font-family: product-sans;
+}
+.footer img{
+  margin-top: 0.8rem;
+  border-radius: 8px;
+  height: 3rem;
+  width: 3rem;
+}
+.head h2{
+  margin-top:5px;
+  margin-bottom: 2px;;
+}
+.head h4{
+  margin: 0px;
+}
+.head p{
+  font-size: 1rem;
+  margin-top: 0.8rem;
+}
+.main_box {
+    font-weight: bold;
+    background-color: #191919;
+    box-shadow : rgba(29, 29, 28, 0.418) 0px 3px 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    height: fit-content;
+    width: 22rem;
+    margin: 10%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /* margin-top: 10%;
+    margin-bottom: 10%; */
+    /* position: relative;
+    padding: 20px;
+    top: 35rem;
+    left: 50%;
+    margin-bottom: 8rem;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box; */
+    /* position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px; */
+  }
+.img_cover {
+    border-radius: 8px;
+    height: 18rem;
+    width: 18rem;
+    box-shadow : rgba(29, 29, 28, 0.418) 0px 3px 30px;
+}
+.store{
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none; 
+    width: 19rem;
+    height:fit-content;
+    object-fit: contain;
+    color: black;
+    box-sizing: border-box;
+}
+.spotify, .appleMusic, .gaana, .jioSaavn, .wynk, .youtube, .youtubeMusic, .resso{
+  position: relative;
+  transition-duration: 0.2s;
+    display: flex;
+    height: 47px;
+    margin-bottom: 1rem;
+}
+.wynk{
+  margin-bottom: 2rem;
+}
+.platform_img {
+  object-fit: contain;
+  margin: 0px;
+  display: block;
+  padding-bottom: 10px;
+  max-width:6rem;
+  padding: 5px;
+}
+.play {
+  transition-duration: 0.4s;
+  font-size: 0.9rem;
+  background-color: rgb(235, 235, 235);
+  border-radius: 9px;
+  width: 20rem;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  margin: 4px 2px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 22%;
+  text-align: center;
+  /* padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 10px; */
+}
+.play:hover{
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  /* font-size: 1rem; */
+  background-color: rgb(255, 255, 255);
+}
+.footer h4{
+  margin: 0px;
+  color: rgb(0, 0, 0);
+}
+.footer h4 a{
+  color: rgb(184, 182, 182);
+  text-decoration: none;
+}
+/*For Mobile*/
+@media screen and (max-width: 480px) {
+  .main_box{
+    margin: 10%;
+    padding: 5%;
+    box-sizing: border-box;
+      /* width:100%; */
+      /* margin-top: 25rem;
+    max-width: 80rem;
+    top: 14.5rem;
+    margin-bottom: 0%; */
+    /* top: 30%;
+    margin-top: 25rem;
+    margin-bottom: 0%; */
+  }
+  .head{
+    margin-top: 0.8rem;
+    font-size: 2rem;
+    box-sizing: border-box;
+  }
+  /* .head p{
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+  }
+  .img_cover {
+    height: 90%;
+    width: 90%;
+  }*/
+.store {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 1REM ;
+  } 
+  /*.play {
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-right: 0.4rem;
+    padding-top: 0.5rem;
+    box-sizing: border-box; */
+    /* font-size: 1.3rem;
+    height: 100%;
+    width: 10rem; */
+  .spotify, .appleMusic, .gaana, .jioSaavn, .wynk, .youtube, .youtubeMusic, .resso{
+      color: black;
+  }
+  .platform_img{
+    object-fit: contain;
+    /* height: 120%;
+    max-width: 10rem; */
+  }
+  .footer img{
+    margin-top: 0.8rem;
+    border-radius: 8px;
+    height: 4rem;
+    width: 4rem;
+  }
+  .footer{
+    font-size: 1.2rem;
+  }
+}
